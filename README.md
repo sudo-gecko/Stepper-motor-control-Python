@@ -26,7 +26,7 @@ import stepper
 step=9
 dir=10
 speed=1000
-stepper1=stepper.stepper(step,dir,1000)
+stepper1=stepper.stepper(step,dir,speed)
 stepper1.forward(1) # 1 turn clockwise
 stepper1.backward(1) # 1 turn counterclockwise
 ```
